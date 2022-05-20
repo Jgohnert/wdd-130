@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -19,6 +24,13 @@ main section {
 }
 body {
     background-color: white;
+    font-size: 22px;
+    font-family: arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #174365;
@@ -28,6 +40,9 @@ nav a {
     background-color: #fce16f;
     color: #174365;
     text-decoration: none;
+    padding: 5px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 nav a:hover {
     background-color: #7fc4d5;
@@ -35,14 +50,22 @@ nav a:hover {
 }
 .home-title {
     color: #174365;
+    font-family: "Libre Baskerville", serif, "san serif";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #174365;
+    font-family: "Libre Baskerville", serif, "san serif";
 }
 .book, .join {
     background-color: #fce16f;
     color: #174365;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #7fc4d5;
@@ -51,20 +74,28 @@ h4 {
 #background {
    background-color: #174365;
    color: white;
+   margin: 100px 0;
 }
 .msg {
     background-color: #174365;
-    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;
 }
 .msg h2 {
     color: white;
+    font-family: "Libre Baskerville", serif, "san serif";
 }
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #7fc4d5;
    color: white;
+   font-size: 18px;
+   padding: 25px 50px;
+   margin-top: 200px;
 }
 footer h3 {
    color: #174365;
@@ -83,4 +114,17 @@ footer h3 a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+footer .social img   {
+    padding-top: 15px;
+}
+.card-img {
+    border: 10px solid #7fc4d5;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+main section img {
+    box-sizing: border-box;
 }
