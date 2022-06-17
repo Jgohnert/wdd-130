@@ -48,7 +48,7 @@ h2 {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;;
+    grid-template-columns: 150px auto;
     background-color: #174365;
 }
 nav {
@@ -191,6 +191,62 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.pg2-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.three-n-card {
+    background-color: #174365;
+    color: white;
+    padding: 8px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.six-n-card {
+    background-color: #174365;
+    color: white;
+    padding: 8px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.pg2-main-grid .button-box {
+    margin: 15px;
+}
+.three-title {
+    text-align: left;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 30px;
+}
+.six-title {
+    text-align: left;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 30px;
+}
+.three-n-info {
+    background-color: #7fc4d5;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 5px solid #174365;
+    height: 100%;
+}
+.six-n-info {
+    background-color: #7fc4d5;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 5px solid #174365;
+    height: 100%;
+}
+li {
+    text-align: left;
+        font-weight: bold;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
