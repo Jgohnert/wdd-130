@@ -36,6 +36,7 @@ nav {
     justify-content: space-around;
     grid-gap: 20px;
 }
+
 nav a {
     background-color: #5d7783;
     color: #003552;
@@ -58,6 +59,7 @@ nav a:hover {
     margin: 50px;
 
 }
+
 .home-info {
     margin-right: 80px;
     width: 500px;
@@ -90,6 +92,13 @@ nav a:hover {
     background-color: #003552;
     padding: 20px;
     width: 100%;
+    transition: transform .4s;
+}
+
+.poster-img:hover {
+    transform: scale(1.01);
+    background-color: #A42212;
+    padding: 5px;
 }
 
 footer {
@@ -102,20 +111,122 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 footer p {
     color: black;
 }
+
 footer a {
     color: white;
     text-decoration: none;
 }
+
 footer p a:hover {
     background-color:#5d7783;
     color: #003552;
 }
+
 footer .social img   {
     padding-top: 15px;
     background-color: #003552;
+}
+
+#celerity-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 50px;
+    background-color: #5d7783;
+    height: 617px;
+    
+}
+
+#celerity-info h1 {
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}
+
+#celerity-info p {
+    background-color: #003552;
+    color: rgba(255, 255, 255, 0.719);
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 70%;
+    height: 150px;
+    overflow: auto;
+}
+
+.synopsis {
+    margin: 10px;
+    grid-column: 2/5;
+    text-align: left;
+}
+
+.mc {
+    grid-column: 2/5;
+}
+
+.character-img {
+    background-color: #003552;
+    padding: 20px;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.poster-two-img {
+    grid-row: 1/6;
+}
+
+#hunt-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 50px;
+    background-color: #5d7783;
+    height: 617px;
+    
+}
+
+#hunt-info h1 {
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}
+
+#hunt-info p {
+    background-color: #003552;
+    color: rgba(255, 255, 255, 0.719);
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 70%;
+    height: 150px;
+    overflow: auto;
+    
+}
+
+#twentyfiftysix-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 50px;
+    background-color: #5d7783;
+    height: 617px;
+    
+}
+
+#twentyfiftysix-info h1 {
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}
+
+#twentyfiftysix-info p {
+    background-color: #003552;
+    color: rgba(255, 255, 255, 0.719);
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 70%;
+    height: 150px;
+    overflow: auto;
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -123,15 +234,18 @@ footer .social img   {
     div .logo {
         width: 100%;
     }
+
     nav, footer {
         flex-direction: column;
     }
+
     nav a {
         padding: 8px;
         margin: 5px 10px;
         font-size: 20px;
         width: auto;
     }
+
     header {
         display: grid;
         grid-template-columns: 100%;
@@ -139,19 +253,68 @@ footer .social img   {
         border-bottom: solid 5px #A42212;
         height: auto;
     }
+
     .home-grid {
         display: block;
         height: auto;
         margin: 0px;
         padding: 0px;
     }
+
     .poster-img {
         width: 50%;
         margin: 10px;
     }
+
     .home-info {
         text-align: center;
         width: auto;
         margin: 0px;
     }
+
+    .character-img {
+        width: 30%;
+        align-self: center;
+    }
+
+    #celerity-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: 10px;
+    }
+
+    #celerity-info p {
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    #hunt-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: 10px;
+    }
+
+    #hunt-info p {
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    #twentyfiftysix-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: 10px;
+    }
+    
+    #twentyfiftysix-info p {
+        align-self: center;
+        margin-top: 10px;
+    }
+
+  
 }
