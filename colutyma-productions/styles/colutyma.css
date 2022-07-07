@@ -152,7 +152,7 @@ footer .social img   {
     margin-left: 40px;
     margin-top: 0px;
     width: 70%;
-    height: 150px;
+    height: 100px;
     overflow: auto;
 }
 
@@ -198,7 +198,7 @@ footer .social img   {
     margin-left: 40px;
     margin-top: 0px;
     width: 70%;
-    height: 150px;
+    height: 100px;
     overflow: auto;
     
 }
@@ -224,9 +224,32 @@ footer .social img   {
     margin-left: 40px;
     margin-top: 0px;
     width: 70%;
-    height: 150px;
+    height: 100px;
     overflow: auto;
     
+}
+
+.actor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.actor-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 237px;
+    background-color: #5d7783;
+    margin: 50px;
+    text-align: left;
+}
+
+.actor-img {
+    grid-row: 1/3;
+}
+
+.actor-card h2 {
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 900px) {
@@ -316,5 +339,16 @@ footer .social img   {
         margin-top: 10px;
     }
 
-  
+    .actor-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .actor-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin: 65px;
+    }
 }
