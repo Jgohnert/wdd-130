@@ -295,48 +295,53 @@ footer .social img   {
         margin: 0px;
     }
 
+    #main2 {
+        display: block;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
     .character-img {
         width: 30%;
+        margin: 10px;
         align-self: center;
     }
 
     #celerity-info {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         height: auto;
         margin: 10px;
     }
 
     #celerity-info p {
-        align-self: center;
-        margin-top: 10px;
+        margin: 0px 0px 10px 0px;
     }
 
     #hunt-info {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         height: auto;
         margin: 10px;
     }
 
     #hunt-info p {
-        align-self: center;
-        margin-top: 10px;
+        margin: 0px 0px 10px 0px;
     }
 
     #twentyfiftysix-info {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         height: auto;
         margin: 10px;
     }
     
     #twentyfiftysix-info p {
-        align-self: center;
-        margin-top: 10px;
+        margin: 0px 0px 10px 0px;
     }
 
     .actor-grid {
